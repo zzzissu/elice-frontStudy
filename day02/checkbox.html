@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+    <style>
+        label {
+            /* 기초 정렬하기 */
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+
+        label > span {
+            display: inline-block;
+            margin-left: 8px;
+        }
+
+        input[type="checkbox"] {
+            /* 실제 체크박스 크기 조정 및 숨기기 */
+            height: 0;
+            display: none;
+        }
+
+        .checkbox-on {
+            /* 체크 된 상태의 이미지는 숨겨놓기 */
+            display: none;
+        }
+
+        input[type="checkbox"]:checked ~ .checkbox-on {
+            /* 빈 체크에서 체크를 하면 (체크 된 이미지)나타내기 */
+            display: inline;
+        }
+
+        input[type="checkbox"]:checked + .checkbox {
+            /* 체크가 되면 빈 체크 이미지는 숨기기 */
+            display: none;
+        }
+
+        input[type="checkbox"]:not(:checked) + .checkbox {
+            /* 체크가 되지 않았을 때에는 빈 체크 이미지 띄우기 */
+            display: inline;
+        }
+
+        .button {
+            background-color: pink;
+            color: white;
+            border: none;
+            cursor: pointer;        /* 마우스를 갖다 대었을 때 손가락 모양으로 바뀜 */
+            padding: 5px 10px;
+            border-radius: 10px;
+        }
+
+        .button:hover {
+            background-color: rgb(235, 123, 160);
+        }
+
+        .input-text {
+            border: none;
+            border-bottom: 2px solid darkgray;
+            padding: 8px;
+            letter-spacing: -.3px;          /* 글자 간격 설정 -0.3px*/
+        }
+
+        .input-text:focus {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label>
+            <input type="checkbox" />
+            <img class="checkbox" src="/img/checkbox.jpg" alt="checkbox" width="20px" height="20px">
+            <img class="checkbox-on" src="/img/checkbox_on.jpg" alt="checkboxOn" width="20px" height="20px">
+            <span>
+                checkbox
+            </span>
+        </label>
+        <div>
+            <button class="button">버튼</button>
+        </div>
+        <div>
+            <input class="input-text" type="text">
+        </div>
+    </div>
+</body>
+</html>
