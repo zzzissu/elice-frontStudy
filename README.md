@@ -17,10 +17,46 @@
 - css layout 이론 및 퀴즈&실습
     - 엘리스 실시간 수업 강의실 퀴즈 2문제
     - 엘리스 실시간 수업 강의실 실습 4문제
-    - Flex froggy, Grid Garden - css layout 게임문제 풀기
+    - Flex froggy, Grid Garden - css layout 게임문제 풀기(엘리스 실시간 수업 강의실 내에서 실행)
 
 #### 4일차
 - css 웹 애니메이션, 반응형 웹사이트 이론 및 퀴즈&실습
     - 엘리스 실시간 수업 강의실 퀴즈 8문제
     - 엘리스 실시간 수업 강의실 실습 13문제
-    - flex & grid 레이아웃을 활용한 웹사이트 만들어보기
+    - day04 flex&grid.html - flex & grid 레이아웃을 활용한 웹사이트 만들어보기
+
+#### 5일차
+- Git 
+    - 설치 방법 및 명령어는 노션에 정리
+    - test.txt파일 생성
+        - 내용 입력 후 git status(확인) > git add 파일명 > git status
+        ```
+            git init
+            test.txt 생성 및 내용 작성
+            git status
+            git add test.txt
+            git status
+            git commit -m "commit message"
+
+            // 필요 시
+            git config user.email ""
+            git config user.name ""
+
+            git commit -m "commit message"
+        ```
+    - test2.txt파일 생성
+        - 내용 입력 후
+        ```
+            git status
+            git add test2.txt
+            git status
+            git restore --staged test2.txt
+            git status
+            git reset HEAD(파일이나 변경 사항을 다시 제외하고자 할 때 사용)
+            git commit --amend(파일면 변경)
+        ```
+    - git lab 프로젝트 생성 후 저장소 사용하기
+- git 이론 및 퀴즈&실습
+    - 엘리스 실시간 수업 강의실 퀴즈 13문제
+    - 엘리스 실시간 수업 강의실 실습 19문제
+- 중간 챕터Test시험
