@@ -1,5 +1,6 @@
 # elice-frontStudy
 
+## 1주차
 #### 1일차
 -  HTML 기초이론 및 퀴즈&실습
     - day01 htmlTest.html - 기초 html 사용해보기 실습
@@ -24,6 +25,9 @@
     - 엘리스 실시간 수업 강의실 퀴즈 8문제
     - 엘리스 실시간 수업 강의실 실습 13문제
     - day04 flex&grid.html - flex & grid 레이아웃을 활용한 웹사이트 만들어보기
+    
+    ![웹사이트 만들기](https://raw.githubusercontent.com/zzzissu/elice-frontStudy/main/img/flex%26grid.png)
+    ![웹사이트 만들기](https://raw.githubusercontent.com/zzzissu/elice-frontStudy/main/img/flex%26grid2.png)
 
 #### 5일차
 - Git 
@@ -53,10 +57,15 @@
             git restore --staged test2.txt
             git status
             git reset HEAD(파일이나 변경 사항을 다시 제외하고자 할 때 사용)
-            git commit --amend(파일면 변경)
+            git commit --amend(파일명 변경)
         ```
     - git lab 프로젝트 생성 후 저장소 사용하기
 - git 이론 및 퀴즈&실습
     - 엘리스 실시간 수업 강의실 퀴즈 13문제
     - 엘리스 실시간 수업 강의실 실습 19문제
 - 중간 챕터Test시험
+
+## 2주차
+#### 6일차
+- JavaScript 기초 이론 및 실습
+    - 엘리스 실시간 수업 강의실 실습 20문제
