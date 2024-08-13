@@ -25,7 +25,7 @@
     - 엘리스 실시간 수업 강의실 퀴즈 8문제
     - 엘리스 실시간 수업 강의실 실습 13문제
     - day04 flex&grid.html - flex & grid 레이아웃을 활용한 웹사이트 만들어보기
-    
+
     ![웹사이트 만들기](https://raw.githubusercontent.com/zzzissu/elice-frontStudy/main/img/flex%26grid.png)
     ![웹사이트 만들기](https://raw.githubusercontent.com/zzzissu/elice-frontStudy/main/img/flex%26grid2.png)
 
@@ -69,3 +69,8 @@
 #### 6일차
 - JavaScript 기초 이론 및 실습
     - 엘리스 실시간 수업 강의실 실습 20문제
+
+#### 7일차
+- DOM과 이벤트 Ⅰ
+    - 엘리스 실시간 수업 강의실 퀴즈 3문제
+    - 엘리스 실시간 수업 강의실 실습 16문제
