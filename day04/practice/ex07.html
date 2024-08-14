@@ -1,0 +1,83 @@
+<!-- 지시사항 -->
+<!-- 
+.box:hover{ }를 입력하고, 중괄호 안에 animation 속성을 통해 아래 속성들을 한 줄로 적용합니다.
+
+animation-name : ChangeBox
+animation-duration : 1s
+animation-timing-function : linear
+animation-iteration-count : 2
+animation-direction : alternate
+.box img:hover{ }를 입력하고, 중괄호 안에 animation 속성을 통해 아래 속성들을 한 줄로 적용합니다.
+
+animation-name : ChangeImg
+animation-duration : 1s
+animation-timing-function : linear
+animation-iteration-count : 2
+animation-direction : alternate
+ChangeBox keyframe을 설정합니다.
+
+keyframe의 이름을 ChangeBox,
+from을 background-color: violet;으로,
+to를 background-color: blue;로 설정합니다.
+ChangeImg keyframe을 설정합니다.
+
+keyframe의 이름을 ChangeImg,
+from을 transform : scale(1);으로,
+to를 transform : scale(1.3);으로 설정합니다.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>엘리스</title>
+    <style>
+      .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: violet;
+        height: 70vh;
+        width: 70vw;
+      }
+
+      .box img {
+        width: 30vw;
+        height: 50vh;
+      }
+
+      /* 지시사항 1번에 맞는 CSS 스타일을 여기에 작성하세요 */
+      .box:hover{ 
+        animation: ChangeBox 1s linear 2 alternate;
+      }
+
+      /* 지시사항 2번에 맞는 CSS 스타일을 여기에 작성하세요 */
+      .box img:hover{ 
+        animation: ChangeImg 1s linear 2 alternate;
+      }
+
+      /* 지시사항 3번에 맞는 CSS 스타일을 여기에 작성하세요 */
+      @keyframes ChangeBox {
+          from {
+              background-color: violet;
+          } to {
+              background-color: blue;
+          }
+      }
+
+      /* 지시사항 4번에 맞는 CSS 스타일을 여기에 작성하세요 */
+      @keyframes ChangeImg {
+          from {
+              transform: scale(1);
+          } to {
+              transform: scale(1.3);
+          }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <img src="elice_rabbit.png" alt="rabbit" />
+    </div>
+  </body>
+</html>

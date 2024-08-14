@@ -1,0 +1,23 @@
+.box {
+    width: 200px;
+    height: 200px;
+    transform: translate(100px, 100px);
+    background-color: red;
+  }
+  
+  /* 지시사항 1번에 맞는 CSS 스타일을 여기에 작성하세요 */
+  @keyframes changeColor {
+      33% {
+          background-color: green;
+      } 66% {
+          background-color: blue;
+      } 99% {
+          background-color: red;
+      }
+  }
+  /* 지시사항 2번에 맞는 CSS 스타일을 여기에 작성하세요 */
+  @media (min-width: 1000px) {
+      .box {
+          animation: changeColor 3s linear infinite;
+      }
+  }

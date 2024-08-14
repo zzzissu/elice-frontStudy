@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: grid;
+    gap: 20px;
+  
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 300px);
+  
+    grid-template-areas:
+      "header header header header"
+      "aside section1 section1 section1"
+      "aside section2 section2 section2"
+      "aside section3 section3 section3"
+      "footer footer footer footer";
+  }
+  
+  header {
+    grid-area: header;
+    background-color: lightblue;
+  }
+  
+  aside {
+    grid-area: aside;
+    background-color: pink;
+  }
+  
+  section {
+    width: 100%;
+  }
+  
+  #first {
+    grid-area: section1;
+    background-color: yellowgreen;
+  }
+  #second {
+    grid-area: section2;
+    background-color: yellow;
+  }
+  #third {
+    grid-area: section3;
+    background-color: violet;
+  }
+  
+  footer {
+    grid-area: footer;
+    background-color: wheat;
+  }
+  
+  #topBtn {
+    all: unset;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.1s ease-in-out;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* 지시사항 1, 2번에 맞는 CSS 스타일을 여기에 작성하세요 */
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  }
+  
+  #topBtn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  #topBtn > span {
+    font-weight: 700;
+  }
+  

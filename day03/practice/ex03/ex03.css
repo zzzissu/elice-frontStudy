@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #container {
+    width: 1024px;
+    overflow: hidden;
+    /* 지시사항 1번에 맞는 CSS 스타일을 여기에 작성하세요 */
+    position: relative;
+  }
+  
+  #slider {
+    display: flex;
+    align-items: center;
+    transform: translateX(-1024px);
+  }
+  
+  #leftBtn {
+    all: unset;
+    font-size: 40px;
+    font-weight: 900;
+  
+    /* 지시사항 2, 3번에 맞는 CSS 스타일을 여기에 작성하세요 */
+    position: absolute;
+    left: 20px;
+    top: 226px;
+  }
+  
+  #leftBtn:hover {
+    cursor: pointer;
+  }
+  
+  #rightBtn {
+    all: unset;
+    font-size: 40px;
+    font-weight: 900;
+  
+    /* 지시사항 2, 4번에 맞는 CSS 스타일을 여기에 작성하세요 */
+    position: absolute;
+    right: 20px;
+    top: 226px;
+  }
+  
+  #rightBtn:hover {
+    cursor: pointer;
+  }
+  

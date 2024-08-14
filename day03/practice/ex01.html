@@ -1,0 +1,44 @@
+<!-- 지시사항 -->
+ <!-- 
+1. .card-container 클래스를 가진 div의 자식 요소들을 flex를 이용하여
+ 수평 방향으로는 공간을 균등하게 나누어 배치하고, 수직 방향으로는 중앙에 배치하세요.
+- 이때 수평 방향 기준 첫 항목은 시작 부분에 밀착되게, 마지막 항목은 끝 부분에 밀착되게 정렬하세요.
+
+2. .card 클래스를 가진 각 div 내부의 텍스트를 flex를 이용하여 수평 방향과 수직 방향으로 중앙에 배치하세요.
+ -->
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>플렉스 박스 실습</title>
+    <style>
+      .card-container {
+        /* 여기에 플렉스 관련 스타일을 적용해주세요 */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+      }
+
+      .card {
+        /* 여기에 플렉스 관련 스타일을 적용해주세요 */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        background-color: #f8f8f8;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="card">Card 1</div>
+      <div class="card">Card 2</div>
+      <div class="card">Card 3</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  section {
+    height: 100vh;
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .menu li {
+    margin: 0px 50px;
+  }
+  
+  .menu li div img {
+    width: 150px;
+  }
+  
+  .img_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 지시사항 3번에 맞는 CSS 스타일을 여기에 작성하세요 */
+    transition: transform 0.5s linear;
+  }
+  
+  .text_wrap {
+    text-align: center;
+    color: #b3b3b3;
+    margin-top: 20px;
+    font-size: 24px;
+    /* 지시사항 4번에 맞는 CSS 스타일을 여기에 작성하세요 */
+    transition: color 0.5s linear;
+  }
+  
+  /* 지시사항 1번에 맞는 CSS 스타일을 여기에 작성하세요 */
+  .img_wrap:hover {
+      transform: scale(1.3);
+  }
+  
+  /* 지시사항 2번에 맞는 CSS 스타일을 여기에 작성하세요 */
+  .text_wrap:hover {
+      color: #ffffff;
+  }
+  

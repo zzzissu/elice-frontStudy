@@ -1,0 +1,35 @@
+<!-- 지시사항 -->
+<!-- 
+.box 클래스 내에 아래 속성 값을 작성해보며 각각의 실행 결과를 비교해봅시다.
+
+1. 도형을 rotate() 함수를 사용해 시계방향으로 45deg 회전시키고 난 후 실행해봅시다.
+
+2. 도형을 scale() 함수를 사용해 가로를 2배, 세로를 2배 확대시키고 실행해봅시다.
+
+3. 도형을 translate()함수를 사용해 x좌표와 y좌표를 50px, 50px 로 이동시키고 실행해봅시다.
+
+4. 도형을 skew()함수를 사용해 x축으로 10deg, y축으로 20deg 기울이고 실행해봅시다.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Transform</title>
+
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: violet;
+        margin: 100px 0 0 100px;
+
+        /* 지시사항에 맞는 CSS 스타일을 여기에 작성하세요 */
+        Transform: rotate(45deg) scale(2, 2) translate(50px, 50px) skew(10deg, 20deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>

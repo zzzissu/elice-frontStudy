@@ -1,0 +1,52 @@
+<!-- 지시사항 -->
+<!-- 
+animation 속성을 이용해 아래 지시사항을 한 줄로 설정합니다.
+
+name을 ChangeBox로 설정합니다.
+duration을 3s로 설정합니다.
+timing-function을 linear로 설정합니다.
+delay를 1s로 설정합니다.
+iteration-count를 infinite로 설정합니다.
+direction을 normal로 설정합니다.
+keyframe을 설정합니다.
+
+@keyframes 의 이름을 ChangeBox,
+from을 transform:rotate(0deg);로,
+50% 지점을 transform:rotate(360deg);로,
+to를 transform:rotate(0deg);로 설정합니다.
+채점을 위해 주석 아래 부분에 코드를 작성하고, 주석의 위치를 옮기지 말아주세요.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        margin: 100px 0 0 100px;
+        background-color: violet;
+        /* 지시사항 1번에 맞는 CSS 스타일을 여기에 작성하세요 */
+        animation-name: ChangeBox;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+      }
+      /* 지시사항 2번에 맞는 CSS 스타일을 여기에 작성하세요 */
+      @keyframes ChangeBox {
+          from {
+              transform:rotate(0deg);
+          } 50% {
+              transform:rotate(360deg);
+          } to {
+              transform:rotate(0deg);
+          }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>

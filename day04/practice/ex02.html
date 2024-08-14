@@ -1,0 +1,39 @@
+<!-- 지시사항 -->
+<!-- 
+1. <style> 태그 안에 .transition 영역에 마우스를 올렸을 때 가로폭이 300px로 변하게 하는 코드를 작성합니다.
+
+2. transition-property 를 사용해서 대상을 width 로 설정합니다.
+
+3. transition-duration을 사용해서 실행할 시간을 2s로 설정합니다.
+
+4. transition-timing-function을 사용해 실행 형태를 linear로 설정합니다.
+
+5. transition-delay를 사용해 지연 시간을 1s로 설정합니다.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .transition {
+        width: 100px;
+        height: 100px;
+        background-color: violet;
+
+        /* 지시사항 2 ~ 5번에 맞는 CSS 스타일을 여기에 작성하세요 */
+        transition-property: width;
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        transition-delay: 1s;
+      }
+
+      /* 지시사항 1번에 맞는 CSS 스타일을 여기에 작성하세요 */
+      .transition:hover {
+          width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="transition"></div>
+  </body>
+</html>
