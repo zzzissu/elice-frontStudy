@@ -18,13 +18,14 @@
 - css layout 이론 및 퀴즈&실습
     - 엘리스 실시간 수업 강의실 퀴즈 2문제
     - 엘리스 실시간 수업 강의실 실습 4문제
-        - day03 ex01~ex04.html
+        - day03/practice ex01~ex04.html
     - Flex froggy, Grid Garden - css layout 게임문제 풀기(엘리스 실시간 수업 강의실 내에서 실행)
 
 #### 4일차
 - css 웹 애니메이션, 반응형 웹사이트 이론 및 퀴즈&실습
     - 엘리스 실시간 수업 강의실 퀴즈 8문제
     - 엘리스 실시간 수업 강의실 실습 13문제
+        - day04/practice ex01~ex13.html
     - day04 flex&grid.html - flex & grid 레이아웃을 활용한 웹사이트 만들어보기
 
     ![웹사이트 만들기](https://raw.githubusercontent.com/zzzissu/elice-frontStudy/main/img/flex%26grid.png)
@@ -70,6 +71,7 @@
 #### 6일차
 - JavaScript 기초 이론 및 실습
     - 엘리스 실시간 수업 강의실 실습 20문제
+    - day06/practice ex01~ex20.js
 
 #### 7일차
 - DOM과 이벤트 Ⅰ
