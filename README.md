@@ -62,9 +62,11 @@
             git commit --amend(파일명 변경)
         ```
     - git lab 프로젝트 생성 후 저장소 사용하기
+    
 - git 이론 및 퀴즈&실습
     - 엘리스 실시간 수업 강의실 퀴즈 13문제
     - 엘리스 실시간 수업 강의실 실습 19문제
+
 - 중간 챕터Test시험
 
 ## 2주차
@@ -98,6 +100,8 @@
     - 엘리스 실시간 수업 강의실 퀴즈 3문제
     - 엘리스 실시간 수업 강의실 실습 9문제
 
+- 중간 챕터Test시험
+
 #### 11일차
 - 비동기 Ⅰ - 이벤트 루프와 Promise
     - 엘리스 실시간 수업 강의실 퀴즈 3문제
@@ -120,9 +124,12 @@
     ![인스타그램 클론코딩](https://raw.githubusercontent.com/zzzissu/elice-frontStudy/main/img/instagramLayout.png)
 
 
+## 4주차
 #### 15일차
 - 인스타그램 클론코딩 계속(상세 기능 다루기 - 이미지 업로드, 프로필 설정)
     - day14-day15 instagramClone.html
     - day14-day15 instagramClone.css
     - day14-day15 instagramClone.js
+
+- 중간 챕터Test시험
 
