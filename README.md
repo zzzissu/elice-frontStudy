@@ -114,6 +114,15 @@
     - 엘리스 실시간 수업 강의실 실습 12문제
 
 #### 14일차
-- 인스타그램 클론코딩
-    - day14 instagramClone.html
-    - day14 instagramClone.css
+- 인스타그램 클론코딩(기본 레이아웃 잡기)
+    - day14-day15 instagramClone.html
+    - day14-day15 instagramClone.css
+    ![인스타그램 클론코딩](https://raw.githubusercontent.com/zzzissu/elice-frontStudy/main/img/instagramLayout.png)
+
+
+#### 15일차
+- 인스타그램 클론코딩 계속(상세 기능 다루기 - 이미지 업로드, 프로필 설정)
+    - day14-day15 instagramClone.html
+    - day14-day15 instagramClone.css
+    - day14-day15 instagramClone.js
+

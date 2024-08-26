@@ -18,7 +18,7 @@
             <li><a href="#" class="icons"><img src="img/media.png" alt="Reels">릴스</a></li>
             <li><a href="#" class="icons"><img src="img/send.png" alt="Messages">메세지</a></li>
             <li><a href="#" class="icons"><img src="img/favorite.png" alt="Notifications">알림</a></li>
-            <li><a href="#" class="icons"><img src="img/add.png" alt="Create">만들기</a></li>
+            <li class="addBtn" id="addBtn"><a href="#" class="icons"><img src="img/add.png" alt="Create">만들기</a></li>
             <li><a href="#" class="icons"><img src="img/contact.png" alt="Profile">프로필</a></li>
         </ul>
     </nav>
@@ -50,7 +50,7 @@
                             <p class="description">Hello, World!</p>
                             <a href="https://github.com/" class="profile-url">
                                 <img src="img/link.png" alt="Blog Link">
-                                🐇토끼의 블로그에 놀러오세요~🐇
+                                https://github.com/
                             </a>
                         </div>
                     </div>
@@ -101,5 +101,24 @@
             </footer>
         </div>
     </div>
+    <!-- 모달창 -->
+    <div class="makeBtnModal" id="makeBtnModal">
+        <div class="popup">
+            <div class="popup-header">
+                <h5>새 게시물 만들기</h5>
+                <button class="post-btn" id="postBtn">게시</button>
+            </div>
+            <div class="upload-section">
+                <div class="choicePicture">
+                    <img src="img/media.png" alt="media" class="selectedImage" id="selectedImage">
+                    <textarea id="captionInput" placeholder="여기에 내용을 입력하세요."></textarea>
+                    <span>사진을 선택하세요.</span>
+                </div>
+                <input type="file" id="fileInput" accept="image/*" hidden />
+                <button class="select-btn" id="selectBtn">컴퓨터에서 선택</button>
+            </div>
+        </div>
+    </div>
+    <script src="instagramClone.js"></script>                                           
 </body>
 </html>
