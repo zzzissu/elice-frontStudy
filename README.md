@@ -1,6 +1,9 @@
 # elice-frontStudy
 
-## 1주차
+<details>
+	<summary>1주차</summary>
+  	<div markdown="1">
+
 #### 1일차
 -  HTML 기초이론 및 퀴즈&실습
     - day01 htmlTest.html - 기초 html 사용해보기 실습
@@ -68,8 +71,13 @@
     - 엘리스 실시간 수업 강의실 실습 19문제
 
 - 중간 챕터Test시험
+  	</div>
+</details>
 
-## 2주차
+<details>
+	<summary>2주차</summary>
+  	<div markdown="1">
+
 #### 6일차
 - JavaScript 기초 이론 및 실습
     - 엘리스 실시간 수업 강의실 실습 20문제
@@ -94,7 +102,13 @@
     - 엘리스 실시간 수업 강의실 실습 16문제
         - day09/practice ex02~ex16.js
 
-## 3주차
+  	</div>
+</details>
+
+<details>
+	<summary>3주차</summary>
+  	<div markdown="1">
+
 #### 10일차
 - 내장 객체
     - 엘리스 실시간 수업 강의실 퀴즈 3문제
@@ -123,8 +137,13 @@
     - day14-day15 instagramClone.css
     ![인스타그램 클론코딩](https://raw.githubusercontent.com/zzzissu/elice-frontStudy/main/img/instagramLayout.png)
 
+  	</div>
+</details>
 
-## 4주차
+<details>
+	<summary>4주차</summary>
+  	<div markdown="1">
+
 #### 15일차
 - 인스타그램 클론코딩 계속(상세 기능 다루기 - 이미지 업로드, 프로필 설정)
     - day14-day15 instagramClone.html
@@ -154,7 +173,15 @@
     - 엘리스 실시간 수업 강의실 퀴즈 14문제
     - 엘리스 실시간 수업 강의실 실습 8문제
 
-## 5주차
+  	</div>
+</details>
+
+
+
+<details>
+	<summary>5주차</summary>
+  	<div markdown="1">
+
 #### 20일차
 - TypeScript 심화
     - 엘리스 실시간 수업 강의실 퀴즈 6문제
@@ -171,3 +198,14 @@
 - React Hooks 기초Ⅰ
     - 엘리스 실시간 수업 강의실 퀴즈 8문제
     - 엘리스 실시간 수업 강의실 실습 12문제
+  	</div>
+</details>
+
+<!-- 
+<details>
+	<summary>주차</summary>
+  	<div markdown="1">
+
+  	</div>
+</details>
+ -->
