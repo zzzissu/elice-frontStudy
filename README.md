@@ -195,9 +195,40 @@
     - 엘리스 실시간 수업 강의실 실습 8문제
 
 #### 22일차
-- React Hooks 기초Ⅰ
+- React Hooks 기초 Ⅰ
     - 엘리스 실시간 수업 강의실 퀴즈 8문제
     - 엘리스 실시간 수업 강의실 실습 12문제
+
+#### 23일차
+- Todo List와 계산기 만들기
+    - TodoList
+        - todoList_한지수 src/TodoList.tsx
+        - todoList_한지수 src/TodoList.css
+        - todoList_한지수 src/App.tsx
+
+#### 24일차
+- React Hooks 심화 Ⅰ
+    - 엘리스 실시간 수업 강의실 퀴즈 6문제
+    - 엘리스 실시간 수업 강의실 실습 9문제
+  	</div>
+</details>
+
+<details>
+	<summary>6주차</summary>
+  	<div markdown="1">
+
+#### 25일차
+- React Hooks 심화 Ⅱ
+    - 엘리스 실시간 수업 강의실 퀴즈 4문제
+    - 엘리스 실시간 수업 강의실 실습 6문제
+
+- 중간 챕터Test시험
+
+#### 26일차
+- React 스타일링 Ⅰ
+    - 엘리스 실시간 수업 강의실 퀴즈 10문제
+    - 엘리스 실시간 수업 강의실 실습 6문제
+
   	</div>
 </details>
 
