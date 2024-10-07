@@ -295,6 +295,49 @@
 
 - 중간 챕터Test시험
 
+#### 36일차
+- 웹 애플리케이션과 Firebase
+    - 엘리스 실시간 수업 강의실 퀴즈 10문제
+    - 엘리스 실시간 수업 강의실 실습 7문제
+
+  	</div>
+</details>
+
+<details>
+	<summary>9주차</summary>
+  	<div markdown="1">
+
+#### 37일차
+- Firebase Cloud Firestore & CRUD
+    - 엘리스 실시간 수업 강의실 퀴즈 10문제
+    - 엘리스 실시간 수업 강의실 실습 7문제
+
+#### 38일차
+- Firebase Storage, 배포
+    - 엘리스 실시간 수업 강의실 퀴즈 10문제
+    - 엘리스 실시간 수업 강의실 실습 7문제
+
+#### 39일차
+- React & Firebase 인스타그램 클론코딩 Ⅰ
+
+#### 10/3 개천절
+
+#### 40일차
+- React & Firebase 인스타그램 클론코딩 Ⅱ
+- 중간 챕터Test시험
+- 프로젝트 팀 구성 및 간단한 회의
+
+  	</div>
+</details>
+
+<details>
+	<summary>10주차</summary>
+  	<div markdown="1">
+
+#### 41일차
+- 깃 특강
+- 프로젝트 시작
+
   	</div>
 </details>
 
